@@ -1,0 +1,21 @@
+
+GET http://localhost:3000/
+
+###
+
+POST http://localhost:3000/
+Content-Type: application/json
+
+{
+    "bname": "Lord of the rings",
+    "author": "shakei",
+    "releaseYear": "1994"
+}
+
+###
+
+PUT http://localhost:3000/
+
+###
+
+DELETE  htpp://localhost:3000/
