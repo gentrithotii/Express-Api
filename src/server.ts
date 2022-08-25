@@ -1,12 +1,11 @@
 import express from 'express';
-import { createObject, getAllOjects, logger } from './api.controller';
+import bookRouter from './resources/books/book.router';
 
 const app = express();
 app.use(express.json());
-app.use(logger)
+app.use("/book", bookRouter);
 
-app.get("/api", getAllOjects);
-app.post("/api", createObject);
+
 
 
 app.listen(3000, () => {

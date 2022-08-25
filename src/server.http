@@ -1,21 +1,22 @@
 
-GET http://localhost:3000/
+GET http://localhost:3000/book
 
 ###
 
-POST http://localhost:3000/
+POST http://localhost:3000/book
 Content-Type: application/json
 
 {
-    "bname": "Lord of the rings",
-    "author": "shakei",
-    "releaseYear": "1994"
+    "bookId": "1",
+    "bookName": "shakei",
+    "bookPages": "52",
+    "bookAuthor": "shakei2"
 }
 
 ###
 
-PUT http://localhost:3000/
+PUT http://localhost:3000/book
 
 ###
 
-DELETE  htpp://localhost:3000/
+DELETE  htpp://localhost:3000/book
