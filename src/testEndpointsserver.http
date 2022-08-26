@@ -1,0 +1,32 @@
+### This is where you test the endpoints 
+
+GET http://localhost:3000/items
+
+###
+
+POST http://localhost:3000/items
+Content-Type: application/json
+
+{
+    "name": "Created Book",
+    "price": 600,
+    "description": "Created Book"
+}
+
+###
+
+PUT http://localhost:3000/items/2
+Content-Type: application/json
+
+{
+    "name": "Updated Book",
+    "price": 1000,
+    "description": "Updated Book"
+}
+
+
+
+
+###
+
+DELETE  http://localhost:3000/items/3

@@ -1,9 +1,9 @@
 import express from 'express';
-import bookRouter from './resources/books/book.router';
+import itemsRouter from './resources/items/Books.router';
 
 const app = express();
 app.use(express.json());
-app.use("/book", bookRouter);
+app.use("/items", itemsRouter);
 
 
 
