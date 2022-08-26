@@ -2,7 +2,7 @@
 
 Instructions to start
 
-Install: npm install  nodemon
+Install: nodeJS
 To run it: npm run dev
 
 
