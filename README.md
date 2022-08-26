@@ -2,7 +2,10 @@
 
 Instructions to start
 
-Install: nodeJS
+Install on pc: (https://nodejs.org/en/download/)
+Install in vscode: npm i -D @types/node
+run the project: npm run dev
+
 
 To run it: npm run dev
 
