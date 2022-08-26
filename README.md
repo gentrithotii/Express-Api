@@ -2,9 +2,11 @@
 
 Instructions to start
 
-Install on pc: (https://nodejs.org/en/download/)
-Install in vscode: npm i -D @types/node
-run the project: npm run dev
+1. Install on pc: (https://nodejs.org/en/download/)
+2. Install in vscode: npm i -D @types/node
+3. Run the project: npm run dev
+4. Use Postman or use the addon in vscode RestClient to try the endpoints wich are in testEndpointsserver.http
+
 
 
 To run it: npm run dev
