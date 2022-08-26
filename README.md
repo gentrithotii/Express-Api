@@ -2,6 +2,8 @@
 
 Instructions to start
 
+Install: npm install  nodemon
+To run it: npm run dev
 
 
 Krav för godkänt:
