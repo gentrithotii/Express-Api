@@ -18,12 +18,14 @@ itemsRouter.get("/", async (req: Request, res: Response) => {
 
     const items: Item[] = await ItemService.findAll();
 
-    if(items.length === 0 ){
+    if(items.length === null ){
 
-       res.status(204).json("No items")
-
+       res.status(404).send("No items")
+      
+    }else{
+      res.status(200).send(items);
     }
-  res.status(200).send(items);
+  
 
 });
 
